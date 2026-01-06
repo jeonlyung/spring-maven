@@ -25,7 +25,6 @@ public class AuthenticInterceptor implements HandlerInterceptor {
             log.debug("methodName: " + methodName);
         }
 
-
         return true;
     }
 
